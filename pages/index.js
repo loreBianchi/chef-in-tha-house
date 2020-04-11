@@ -20,14 +20,14 @@ const Home = () => (
 
       <div className="grid">
         <Link href="/hungry-gourmets">
-          <div className="card">
+          <div className="link-card">
             <h3>Hungry Gourmets &rarr;</h3>
             <p>Check if restaurant meals, strictly delivered to your place, are available in your area</p>
           </div>
         </Link>
 
         <Link href="/bored-chefs">
-          <div className="card">
+          <div className="link-card">
             <h3>Bored Chefs &rarr;</h3>
             <p>Do you work in the world of catering and do you want to offer meals at home in your area? find out how</p>
           </div>

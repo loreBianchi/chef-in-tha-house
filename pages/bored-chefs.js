@@ -1,7 +1,7 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 import Footer from '../components/Footer'
-import ChefsRegistrationForm from '../components/ChefsRegistrationForm'
 
 const BoredChefs = () => (
   <div className="page-container chefs">
@@ -16,8 +16,8 @@ const BoredChefs = () => (
         If you are the owner of a facility that has all the credentials to be able to cook meals in compliance with current hygiene regulations 
         and you want to offer home cooked meals, this is the right place!
       </p>
-      <p></p>
-      <ChefsRegistrationForm />
+      <p className="chefs-intro">First, <Link href="/chefs-registration"><a className="chefs-intro-link">register your business to chef-in-tha-house</a></Link></p>
+      <p className="chefs-intro">Second, <Link href="/chefs-list"><a className="chefs-intro-link">check the chefs' list</a></Link></p>
     </section>
     <Footer />
   </div>

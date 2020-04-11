@@ -136,7 +136,7 @@ code {
   margin-top: 3rem;
 }
 
-.card {
+.link-card {
   margin: 1rem;
   flex-basis: 45%;
   padding: 1.5rem;
@@ -149,19 +149,19 @@ code {
   cursor: pointer;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
+.link-card:hover,
+.link-card:focus,
+.link-card:active {
   color: #0070f3;
   border-color: #0070f3;
 }
 
-.card h3 {
+.link-card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
 
-.card p {
+.link-card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -180,13 +180,39 @@ code {
 .chefs-icon,
 .gourmets-icon {
   position: fixed;
-  top: 0;
+  top: 1rem;
   left: 3rem;
 }
 
 .gourmets-intro,
 .chefs-intro {
   font-size: 1.3rem;
+}
+
+.chefs-intro-link {
+  color: darkslateblue;
+  text-decoration: underline;
+  background-color: lime;
+}
+
+.chefs-registration-card {
+  border: .1rem solid teal;
+}
+
+.chefs-list-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.chefs-list-box {
+  background-color: #f2f2f2;
+  color: #333;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
 }
 
 @media (max-width: 600px) {
